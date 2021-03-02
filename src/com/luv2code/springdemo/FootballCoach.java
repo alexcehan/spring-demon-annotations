@@ -9,4 +9,9 @@ public class FootballCoach implements Coach{
     public String getDailyWorkout() {
         return "Practice your freekick 400 times!";
     }
+
+    @Override
+    public String getDailyFortune() {
+        return null;
+    }
 }
